@@ -1,0 +1,1 @@
+# splunk-500node-midsize-architecture
