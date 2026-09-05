@@ -1,2 +1,3 @@
 # splunk-500node-midsize-architecture
-<img width="986" height="740" alt="изображение" src="https://github.com/user-attachments/assets/10d5687f-99f0-4a49-9967-4b0dfbe86411" />
+<img width="590" height="507" alt="Splunk project architecture" src="https://github.com/user-attachments/assets/b69ea8cf-c4a0-4b2c-ba32-e3137126c642" />
+
