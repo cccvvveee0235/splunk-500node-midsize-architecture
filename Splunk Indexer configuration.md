@@ -4,7 +4,7 @@ This document provides a step-by-step guide for the initial setup of a Splunk In
 
 1. Creating Custom Accounts and Roles
 
-Using the default admin account for daily operations is unsafe. Set up dedicated user accounts with restricted privileges based on necessary roles.
+Using the default admin account for daily operations is unsafe. Set up dedicated user accounts with restricted privileges based on necessary roles. For example, I created my own account and assigned a special role to it.
 
     In the Splunk Web interface, navigate to Settings -> Users (or Roles).
 
