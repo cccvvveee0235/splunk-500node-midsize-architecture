@@ -1,3 +1,4 @@
-1. It is necessary to create user accounts and assign them the appropriate permissions. Granting full administrator privileges is extremely unsafe.
-Settings -> Roles
+Splunk Indexer Configuration Guide
+
+This document provides a step-by-step guide for the initial setup of a Splunk Indexer node: creating custom user accounts, enabling HTTPS, configuring data receiving ports, and managing index storage paths.
 
