@@ -13,5 +13,5 @@ Using the default admin account for daily operations is unsafe. Set up dedicated
     Assign appropriate roles (e.g., power, data_management_admin or a custom administrator role).
 
     Save the changes and verify login using the new account.
-![1. Create User and Roles]
-<img src="assets/Splunk roles.png" alt="Описание фото" width="400">
+**1. Create User and Roles**
+<img src="assets/Splunk roles.png" alt="Описание фото" >
