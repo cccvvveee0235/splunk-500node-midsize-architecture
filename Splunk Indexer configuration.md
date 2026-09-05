@@ -16,3 +16,7 @@ Using the default admin account for daily operations is unsafe. Set up dedicated
 **1. Create User and Roles**
 
 <img src="assets/Splunk roles.png" alt="Creating Users and Roles" >
+
+<img src="assets/Splunk roles2.png" alt="Creating Users and Roles" >
+
+<img src="assets/Splunk roles3.png" alt="Creating Users and Roles" >
