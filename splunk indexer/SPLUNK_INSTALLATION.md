@@ -31,7 +31,15 @@ Click Trials & Downloads. Choose Splunk Enterprise. For example my Linux server 
 
 <img src="../assets/Splunk installation2.JPG" alt="Splunk installation" >
 
-## 2. Install Splunk Package in Linux server.
+## 2. Transferring the Installer Package via SCP
 
+After downloading the Splunk Enterprise `.deb` installer package from the official [Splunk Website](https://www.splunk.com) to your local workstation, upload it to the target Linux server using Secure Copy Protocol (`scp`).
+
+
+### Command Execution (Run on Local Machine):
+```bash
+scp splunk-9.x.x-xxxxxx-linux-264-amd64.deb user@<SERVER_IP>:/tmp/
+
+<img src="../assets/Splunk installation3.JPG" alt="Splunk installation" >
 
 
