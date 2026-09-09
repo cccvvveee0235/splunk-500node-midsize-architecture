@@ -6,6 +6,6 @@ To protect web traffic (port 8000) and REST API communications (port 8089) from 
 
     Under the Splunk Web section, toggle Enable SSL (HTTPS) to Yes.
 
-    If using custom SSL certificates, specify the PEM file paths in web.conf and server.conf.
+    If using custom SSL certificates, specify the PEM file paths in web.conf.
 
     Restart Splunk web services to apply the new settings.
