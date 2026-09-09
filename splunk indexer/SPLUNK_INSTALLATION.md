@@ -22,12 +22,12 @@ Before starting the installation, ensure your server meets the system requiremen
 
 ---
 
-## 📥 2. Download the Package
+## 1. Download the Package
 
 Download the installation package for your Linux distribution from official web site. Need account for splunk.com site.
 Click Trials & Downloads. Choose Splunk Enterprise. For example my Linux server is Ubuntu 24.04.
 
-## 📥 2. Install Splunk Package in Linux server.
+## 2. Install Splunk Package in Linux server.
 
 
 
