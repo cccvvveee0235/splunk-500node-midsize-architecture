@@ -102,3 +102,25 @@ sudo ./splunk start --accept-license --run-as-root
     --accept-license - Automatically accepts the Splunk End User License Agreement (EULA), bypassing the requirement to manually scroll through the text.
 
     --run-as-root - Explicitly permits Splunk to run under the root superuser account without throwing a safety prompt/warning.
+
+## 5. Enabling Systemd Autostart (Boot-Start)
+
+To ensure Splunk starts automatically whenever the server reboots or restarts, configure the system service manager (`systemd`).
+
+
+### Command Execution (Run on Local Machine):
+```cli```
+
+sudo /opt/splunk/bin/splunk enable boot-start
+
+
+<img src="../assets/Splunk installation3.JPG" alt="Splunk installation" >
+
+
+    scp - Secure Copy utility that leverages SSH to transfer files securely between remote hosts.
+
+    splunk-10.x.x-xxxxxx-linux-264-amd64.deb - The relative or absolute file path to the Splunk package on your local computer.
+
+    user@<SERVER_IP> - The SSH username and IP address/hostname of the target server.
+
+    :/tmp/ - The target directory on the remote server where the installer package will be stored.
