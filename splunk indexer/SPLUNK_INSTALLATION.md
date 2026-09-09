@@ -20,6 +20,11 @@ Before starting the installation, ensure your server meets the system requiremen
 * **`8089/tcp`** — Splunk Management Port (REST API & CLI).
 * **`9997/tcp`** — Splunk Receiver Port (Incoming data from Splunk Forwarders).
 
+### Target OS & Environment
+
+* **OS Selected:** Ubuntu 26.04 LTS
+* **System Architecture:** x86_64 / amd64
+
 ---
 
 ## 1. Download the Package
