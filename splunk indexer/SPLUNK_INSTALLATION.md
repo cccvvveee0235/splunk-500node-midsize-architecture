@@ -55,7 +55,7 @@ scp splunk-10.x.x-xxxxxx-linux-xxx-amd64.deb user@<SERVER_IP>:/tmp/
 
 ## 3. Package Installation via DPKG
 
-Connect to your target server via SSH, navigate to the upload directory, and install the package using the Debian Package Manager (dpkg).
+Connect to your target server via SSH, navigate to the upload directory, and install the package using the Debian Package Manager (`dpkg`).
 
 
 ### Command Execution (Run on Target Server):
