@@ -39,7 +39,7 @@ After downloading the Splunk Enterprise `.deb` installer package from the offici
 ### Command Execution (Run on Local Machine):
 ```cli```
 
-scp splunk-10.x.x-xxxxxx-linux-264-amd64.deb user@<SERVER_IP>:/tmp/
+scp splunk-10.x.x-xxxxxx-linux-xxx-amd64.deb user@<SERVER_IP>:/tmp/
 
 
 <img src="../assets/Splunk installation3.JPG" alt="Splunk installation" >
@@ -52,3 +52,28 @@ splunk-10.x.x-xxxxxx-linux-264-amd64.deb - The relative or absolute file path to
 user@<SERVER_IP> - The SSH username and IP address/hostname of the target server.
 
 :/tmp/ - The target directory on the remote server where the installer package will be stored.
+
+## 3. Package Installation via DPKG
+
+Connect to your target server via SSH, navigate to the upload directory, and install the package using the Debian Package Manager (dpkg).
+
+
+### Command Execution (Run on Target Server):
+```cli```
+
+cd /tmp
+sudo dpkg -i splunk-10.x.x-xxxxxx-linux-xxx-amd64.deb
+
+
+<img src="../assets/Splunk installation4.JPG" alt="Splunk installation" >
+
+
+    cd /tmp - Changes the working directory to /tmp where the installer file was uploaded.
+
+    sudo - Executes the command with elevated root privileges (required for system-wide software installation).
+
+    dpkg - The core package management system for Debian-based Linux distributions.
+
+    -i (or --install) - Instructs dpkg to unpack and install the specified .deb package.
+
+    💡 Installation Location: By default, Splunk installs all binaries, default configurations, scripts, and libraries into the /opt/splunk directory.
