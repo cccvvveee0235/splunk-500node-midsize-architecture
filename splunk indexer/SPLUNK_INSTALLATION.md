@@ -65,7 +65,7 @@ cd /tmp
 sudo dpkg -i splunk-10.x.x-xxxxxx-linux-xxx-amd64.deb
 
 
-<img src="../assets/Splunk installation5.JPG" alt="Splunk installation" >
+<img src="../assets/Splunk Installation5.JPG" alt="Splunk installation" >
 
 
     cd /tmp - Changes the working directory to /tmp where the installer file was uploaded.
