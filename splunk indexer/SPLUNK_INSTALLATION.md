@@ -45,13 +45,13 @@ scp splunk-10.x.x-xxxxxx-linux-xxx-amd64.deb user@<SERVER_IP>:/tmp/
 <img src="../assets/Splunk installation3.JPG" alt="Splunk installation" >
 
 
-scp - Secure Copy utility that leverages SSH to transfer files securely between remote hosts.
+    scp - Secure Copy utility that leverages SSH to transfer files securely between remote hosts.
 
-splunk-10.x.x-xxxxxx-linux-264-amd64.deb - The relative or absolute file path to the Splunk package on your local computer.
+    splunk-10.x.x-xxxxxx-linux-264-amd64.deb - The relative or absolute file path to the Splunk package on your local computer.
 
-user@<SERVER_IP> - The SSH username and IP address/hostname of the target server.
+    user@<SERVER_IP> - The SSH username and IP address/hostname of the target server.
 
-:/tmp/ - The target directory on the remote server where the installer package will be stored.
+    :/tmp/ - The target directory on the remote server where the installer package will be stored.
 
 ## 3. Package Installation via DPKG
 
