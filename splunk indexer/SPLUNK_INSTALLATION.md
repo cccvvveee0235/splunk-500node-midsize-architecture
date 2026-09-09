@@ -37,7 +37,7 @@ After downloading the Splunk Enterprise `.deb` installer package from the offici
 
 
 ### Command Execution (Run on Local Machine):
-```bash
+```bash```
 scp splunk-9.x.x-xxxxxx-linux-264-amd64.deb user@<SERVER_IP>:/tmp/
 
 <img src="../assets/Splunk installation3.JPG" alt="Splunk installation" >
