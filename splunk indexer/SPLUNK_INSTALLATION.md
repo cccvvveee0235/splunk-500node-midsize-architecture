@@ -115,6 +115,6 @@ cd /opt/splunk/bin
 ./splunk enable boot-start
 
 
-<img src="../assets/Splunk installation8.JPG" alt="Splunk installation" >
+<img src="../assets/Splunk Installation8.JPG" alt="Splunk installation" >
 
     enable boot-start - Creates the necessary systemd unit files (or init.d scripts) and system symlinks so the Splunk background service is automatically managed by the OS.
