@@ -13,7 +13,7 @@ Before starting the installation, ensure your server meets the system requiremen
 | **OS** | Ubuntu 20.04+ / RHEL 8+ / Debian 11+ | RHEL 8+ / Rocky Linux 9 |
 | **CPU** | 2 Cores | 16 Cores |
 | **RAM** | 4 GB | 32 GB |
-| **Disk** | 20 GB SSD | 500 GB+ NVMe / High-IOPS SSD |
+| **Disk** | 50 GB HDD | 500 GB+ NVMe / High-IOPS SSD |
 
 ### Network Ports
 * **`8000/tcp`** — Splunk Web Interface (HTTP/HTTPS).
