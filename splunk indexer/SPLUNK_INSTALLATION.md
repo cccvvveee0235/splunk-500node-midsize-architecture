@@ -118,3 +118,19 @@ cd /opt/splunk/bin
 <img src="../assets/Splunk Installation8.JPG" alt="Splunk installation" >
 
     enable boot-start - Creates the necessary systemd unit files (or init.d scripts) and system symlinks so the Splunk background service is automatically managed by the OS.
+
+## 6. Accessing Splunk Web Interface
+
+Once the service is active, open your web browser to access the Splunk Web management portal.
+
+### Command Execution (Run on Target Server):
+```cli```
+
+http://<YOUR_SERVER_IP>:8000
+
+<img src="../assets/Splunk Installation9.JPG" alt="Splunk installation" >
+
+    Enter Username: admin (or the username created in Step 4).
+
+    Enter Password: The password created in Step 4.
+
