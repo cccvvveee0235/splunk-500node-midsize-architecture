@@ -92,6 +92,8 @@ sudo ./splunk start --accept-license --run-as-root
 
 <img src="../assets/Splunk Installation6.JPG" alt="Splunk installation" >
 
+<img src="../assets/Splunk Installation7.JPG" alt="Splunk installation" >
+
 
     cd /opt/splunk/bin - Moves into the directory containing Splunk executable binaries.
 
