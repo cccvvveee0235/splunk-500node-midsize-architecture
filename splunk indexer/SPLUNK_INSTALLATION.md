@@ -108,19 +108,13 @@ sudo ./splunk start --accept-license --run-as-root
 To ensure Splunk starts automatically whenever the server reboots or restarts, configure the system service manager (`systemd`).
 
 
-### Command Execution (Run on Local Machine):
+### Command Execution (Run on Target Server):
 ```cli```
 
-sudo /opt/splunk/bin/splunk enable boot-start
+cd /opt/splunk/bin
+./splunk enable boot-start
 
 
-<img src="../assets/Splunk installation3.JPG" alt="Splunk installation" >
+<img src="../assets/Splunk installation8.JPG" alt="Splunk installation" >
 
-
-    scp - Secure Copy utility that leverages SSH to transfer files securely between remote hosts.
-
-    splunk-10.x.x-xxxxxx-linux-264-amd64.deb - The relative or absolute file path to the Splunk package on your local computer.
-
-    user@<SERVER_IP> - The SSH username and IP address/hostname of the target server.
-
-    :/tmp/ - The target directory on the remote server where the installer package will be stored.
+    enable boot-start - Creates the necessary systemd unit files (or init.d scripts) and system symlinks so the Splunk background service is automatically managed by the OS.
