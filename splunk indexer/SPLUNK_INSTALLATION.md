@@ -123,9 +123,6 @@ cd /opt/splunk/bin
 
 Once the service is active, open your web browser to access the Splunk Web management portal.
 
-### Command Execution (Run on Target Server):
-```cli```
-
 http://<YOUR_SERVER_IP>:8000
 
 <img src="../assets/Splunk Installation9.JPG" alt="Splunk installation" >
