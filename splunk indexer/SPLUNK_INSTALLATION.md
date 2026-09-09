@@ -77,3 +77,26 @@ sudo dpkg -i splunk-10.x.x-xxxxxx-linux-xxx-amd64.deb
     -i (or --install) - Instructs dpkg to unpack and install the specified .deb package.
 
     💡 Installation Location: By default, Splunk installs all binaries, default configurations, scripts, and libraries into the /opt/splunk directory.
+
+## 4. First Launch & Administrator Account Setup
+
+Navigate to the Splunk binary directory and launch the initial setup process. During this step, you will accept the license agreement and configure the primary administrator credentials.
+
+
+### Command Execution (Run on Target Server):
+```cli```
+
+cd /opt/splunk/bin
+sudo ./splunk start --accept-license --run-as-root
+
+
+<img src="../assets/Splunk Installation6.JPG" alt="Splunk installation" >
+
+
+    cd /opt/splunk/bin - Moves into the directory containing Splunk executable binaries.
+
+    ./splunk start - Initiates the Splunk service startup sequence, including environment checks, database initializations, and process spawning.
+
+    --accept-license - Automatically accepts the Splunk End User License Agreement (EULA), bypassing the requirement to manually scroll through the text.
+
+    --run-as-root - Explicitly permits Splunk to run under the root superuser account without throwing a safety prompt/warning.
